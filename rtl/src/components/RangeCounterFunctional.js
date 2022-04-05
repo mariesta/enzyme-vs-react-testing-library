@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-const RangeCounterB = (props) => {
+const RangeCounterFunctional = (props) => {
   const { max, min } = props;
   const [counter, setCounter] = useState(min);
   const [hasEdited, setHasEdited] = useState(false);

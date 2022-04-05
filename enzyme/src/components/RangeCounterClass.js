@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-class RangeCounterA extends Component {
+class RangeCounterClass extends Component {
   constructor(props) {
     super(props);
     const { min } = props;
