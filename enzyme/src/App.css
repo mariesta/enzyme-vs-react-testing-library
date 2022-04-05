@@ -1,0 +1,39 @@
+.App {
+  align-items: center;
+  display: grid;
+  font-family: sans-serif;
+  height: 10rem;
+  justify-items: center;
+  padding: 2rem 0;
+  grid-template-columns: 1fr 1fr;
+}
+
+.RangeCounter {
+  height: 10rem;
+}
+
+.RangeCounter__title {
+  font-size: 0.8rem;
+}
+
+.RangeCounter__controls {
+  align-items: center;
+  border: 0.1rem solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-items: center;
+  padding: 1rem;
+  width: 18vw;
+}
+
+.RangeCounter__alert {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.RangeCounter button {
+  border-radius: 0.3rem;
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 2rem;
+}
