@@ -67,14 +67,14 @@ class RangeCounterClass extends Component {
   }
 }
 
-RangeCounterA.propTypes = {
+RangeCounterClass.propTypes = {
   min: PropTypes.number,
   max: PropTypes.number
 };
 
-RangeCounterA.defaultProps = {
+RangeCounterClass.defaultProps = {
   min: 0,
   max: 10
 };
 
-export default RangeCounterA;
+export default RangeCounterClass;
